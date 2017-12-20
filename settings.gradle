@@ -1,1 +1,1 @@
-include ':app', ':mylittlelibrary'
+include ':app', ':mylittlelibrary','maven-push.gradle'

@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/maven-push.gradle" />
             <option value="$PROJECT_DIR$/mylittlelibrary" />
           </set>
         </option>

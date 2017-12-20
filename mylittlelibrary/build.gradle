@@ -26,7 +26,26 @@ android {
     }
 
 }
+bintray {
+    user = 'iamakki'
+    key = 'f674f9ba8cb161f47cb3217f4fca6588d67bd3ae'
+    pkg {
+        repo = 'mylittlelibrary'
+        name = 'io.iamrajendra.mylittlelibrary'
 
+        version {
+            name = '1.0.1-version'
+            desc = 'powerfull lafasi'
+            released  = new Date()
+            vcsTag = '1.0.1'
+        }
+
+        licenses = ['Apache-2.0']
+        vcsUrl = 'https://github.com/iamrajendra/MyLittleLibrary.git'
+        websiteUrl = 'https://github.com/iamrajendra/MyLittleLibrary.git'
+    }
+    configurations = ['archives']
+}
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 

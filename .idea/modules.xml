@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library.iml" filepath="$PROJECT_DIR$/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-push.gradle/maven-push.gradle.iml" filepath="$PROJECT_DIR$/maven-push.gradle/maven-push.gradle.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylittlelibrary/mylittlelibrary.iml" filepath="$PROJECT_DIR$/mylittlelibrary/mylittlelibrary.iml" />
     </modules>
   </component>
